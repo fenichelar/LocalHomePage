@@ -23,7 +23,7 @@
 			        <ul>
 <?php
 			            foreach ( $devtools as $tool ) {
-			            	printf( '<li><a href="%1$s">%2$s</a></li>', $tool['url'], $tool['name'] );
+			            	printf( '<li><a href="%1$s" target="%2$s">%3$s</a></li>', $tool['url'], $tool['window'], $tool['name'] );
 			            }
 ?>
 			        </ul>

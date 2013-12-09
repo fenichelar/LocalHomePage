@@ -34,8 +34,8 @@ $icons = array( 'apple-touch-icon.png', 'favicon.ico' );
 */
 $devtools = array(
 //	array( 'name' => 'Tool', 'url' => 'http://example.com/' ),
-	array( 'name' => 'Web Host Admin', 'url' => 'http://example.com/' ),
-	array( 'name' => 'Github', 'url' => 'http://github.com/' ),
+	array( 'name' => 'Web Host Admin', 'url' => 'http://example.com/', 'window' => '' ),
+	array( 'name' => 'Github', 'url' => 'http://github.com/', 'window' => '_blank' ),
 	);
 
 /*
